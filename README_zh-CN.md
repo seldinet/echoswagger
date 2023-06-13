@@ -3,10 +3,10 @@
 # Echoswagger
 [Echo](https://github.com/labstack/echo) 框架的 [Swagger UI](https://github.com/swagger-api/swagger-ui) 生成器
 
-[![Ci](https://github.com/devarchi33/echoswagger/actions/workflows/ci.yml/badge.svg?branch=v2)](https://github.com/devarchi33/echoswagger/actions/workflows/ci.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/devarchi33/echoswagger)](https://goreportcard.com/report/github.com/devarchi33/echoswagger)
-[![Go Reference](https://pkg.go.dev/badge/github.com/devarchi33/echoswagger.svg)](https://pkg.go.dev/github.com/devarchi33/echoswagger)
-[![codecov](https://codecov.io/gh/devarchi33/echoswagger/branch/v2/graph/badge.svg)](https://codecov.io/gh/devarchi33/echoswagger/branch/v2)
+[![Ci](https://github.com/seldinet/echoswagger/actions/workflows/ci.yml/badge.svg?branch=v2)](https://github.com/seldinet/echoswagger/actions/workflows/ci.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/seldinet/echoswagger)](https://goreportcard.com/report/github.com/seldinet/echoswagger)
+[![Go Reference](https://pkg.go.dev/badge/github.com/seldinet/echoswagger.svg)](https://pkg.go.dev/github.com/seldinet/echoswagger)
+[![codecov](https://codecov.io/gh/seldinet/echoswagger/branch/v2/graph/badge.svg)](https://codecov.io/gh/seldinet/echoswagger/branch/v2)
 
 ## 特性
 - 不依赖任何SwaggerUI的HTML/CSS文件
@@ -16,7 +16,7 @@
 
 ## 安装
 ```
-go get github.com/devarchi33/echoswagger/v2
+go get github.com/seldinet/echoswagger/v2
 ```
 
 ## Go modules 支持
@@ -25,8 +25,8 @@ go get github.com/devarchi33/echoswagger/v2
 - 选择v1版本的Echoswagger搭配Echo v3及以下版本
 
 使用v2版本，只需要:
-- `go get github.com/devarchi33/echoswagger/v2`
-- 在你的项目中import `github.com/labstack/echo/v4` 和 `github.com/devarchi33/echoswagger/v2`
+- `go get github.com/seldinet/echoswagger/v2`
+- 在你的项目中import `github.com/labstack/echo/v4` 和 `github.com/seldinet/echoswagger/v2`
 
 同时，v1版本将继续更新。关于Go modules的详细内容，请参考 [Go Wiki](https://github.com/golang/go/wiki/Modules)
 
@@ -38,7 +38,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/devarchi33/echoswagger/v2"
+	"github.com/seldinet/echoswagger/v2"
 	"github.com/labstack/echo/v4"
 )
 
@@ -252,4 +252,4 @@ if os.Getenv("env") == "production" {
 
 ## License
 
-[MIT](https://github.com/devarchi33/echoswagger/blob/master/LICENSE)
+[MIT](https://github.com/seldinet/echoswagger/blob/master/LICENSE)

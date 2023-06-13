@@ -3,10 +3,10 @@ English | [简体中文](./README_zh-CN.md)
 # Echoswagger
 [Swagger UI](https://github.com/swagger-api/swagger-ui) generator for [Echo](https://github.com/labstack/echo) framework
 
-[![Ci](https://github.com/devarchi33/echoswagger/actions/workflows/ci.yml/badge.svg?branch=v2)](https://github.com/devarchi33/echoswagger/actions/workflows/ci.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/devarchi33/echoswagger)](https://goreportcard.com/report/github.com/devarchi33/echoswagger)
-[![Go Reference](https://pkg.go.dev/badge/github.com/devarchi33/echoswagger.svg)](https://pkg.go.dev/github.com/devarchi33/echoswagger)
-[![codecov](https://codecov.io/gh/devarchi33/echoswagger/branch/v2/graph/badge.svg)](https://codecov.io/gh/devarchi33/echoswagger/branch/v2)
+[![Ci](https://github.com/seldinet/echoswagger/actions/workflows/ci.yml/badge.svg?branch=v2)](https://github.com/seldinet/echoswagger/actions/workflows/ci.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/seldinet/echoswagger)](https://goreportcard.com/report/github.com/seldinet/echoswagger)
+[![Go Reference](https://pkg.go.dev/badge/github.com/seldinet/echoswagger.svg)](https://pkg.go.dev/github.com/seldinet/echoswagger)
+[![codecov](https://codecov.io/gh/seldinet/echoswagger/branch/v2/graph/badge.svg)](https://codecov.io/gh/seldinet/echoswagger/branch/v2)
 
 ## Feature
 - No SwaggerUI HTML/CSS dependency
@@ -16,7 +16,7 @@ English | [简体中文](./README_zh-CN.md)
 
 ## Installation
 ```
-go get github.com/devarchi33/echoswagger/v2
+go get github.com/seldinet/echoswagger/v2
 ```
 
 ## Go modules support
@@ -25,8 +25,8 @@ If your project has migrated to Go modules, you can:
 - Choose v1 version of Echoswagger for Echo version <= v3.
 
 To use v2 version, just do:
-- `go get github.com/devarchi33/echoswagger/v2`
-- import `github.com/labstack/echo/v4` and `github.com/devarchi33/echoswagger/v2` in your project
+- `go get github.com/seldinet/echoswagger/v2`
+- import `github.com/labstack/echo/v4` and `github.com/seldinet/echoswagger/v2` in your project
 
 Meanwhile, v1 version will still be updated if needed. For more details of Go modules, please refer to [Go Wiki](https://github.com/golang/go/wiki/Modules).
 
@@ -38,7 +38,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/devarchi33/echoswagger/v2"
+	"github.com/seldinet/echoswagger/v2"
 	"github.com/labstack/echo/v4"
 )
 
@@ -252,4 +252,4 @@ if os.Getenv("env") == "production" {
 
 ## License
 
-[MIT](https://github.com/devarchi33/echoswagger/blob/master/LICENSE)
+[MIT](https://github.com/seldinet/echoswagger/blob/master/LICENSE)

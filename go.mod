@@ -1,9 +1,8 @@
-module github.com/seldinet/echoswagger/v1
+module github.com/seldinet/echoswagger/v2
 
 go 1.17
 
 require (
-	github.com/devarchi33/echoswagger/v2 v2.8.8
 	github.com/labstack/echo/v4 v4.7.1
 	github.com/stretchr/testify v1.7.0
 )
